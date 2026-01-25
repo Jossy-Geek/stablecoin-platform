@@ -1,0 +1,27 @@
+version: '3.8'
+
+# Combined Docker Compose File
+# This file merges all individual service files for convenience
+# Use this when you want to manage all services from one file
+
+# Note: This file is auto-generated. For modular management, use individual files in docker/ directory
+
+networks:
+  stablecoin-network:
+    driver: bridge
+    name: stablecoin-network
+
+volumes:
+  postgres-user-data:
+    name: postgres-user-data
+  postgres-transaction-data:
+    name: postgres-transaction-data
+  mongodb-data:
+    name: mongodb-data
+  redis-data:
+    name: redis-data
+  rabbitmq-data:
+    name: rabbitmq-data
+
+# Import all services from individual files
+# This is a reference - actual services are defined in docker-compose.yml at root

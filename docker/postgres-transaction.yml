@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  postgres-transaction:
+    image: postgres:15-alpine
+    container_name: postgres-transaction
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-admin}
+      POSTGRES_DB: ${POSTGRES_TRANSACTION_DB:-st_transaction_db}
+    ports:
+      - "${POSTGRES_TRANSACTION_PORT:-5433}:5432"
+    volumes:
+      - postgres-transaction-data:/var/lib/postgresql/data
+    networks:
+      - stablecoin-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+networks:
+  stablecoin-network:
+    external: true
+
+volumes:
+  postgres-transaction-data:
+    external: true

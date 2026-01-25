@@ -1,0 +1,89 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type DashboardOverview {
+  transactions: TransactionStats!
+  trends: [TransactionTrend!]!
+  users: UserStats!
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type PaginatedUsers {
+  data: [User!]!
+  limit: Int!
+  page: Int!
+  total: Int!
+  totalPages: Int!
+}
+
+type Query {
+  dashboardOverview: DashboardOverview!
+  transactionStats: TransactionStats!
+  transactionTrends(days: Int = 30): [TransactionTrend!]!
+  userStats: UserStats!
+  users(filters: UserFilters, limit: Int = 10, page: Int = 1, role: String): PaginatedUsers!
+}
+
+type RecentUser {
+  createdAt: DateTime!
+  email: String!
+  firstName: String
+  id: String!
+  lastName: String
+}
+
+type TransactionStats {
+  totalBurn: String!
+  totalMint: String!
+}
+
+type TransactionTrend {
+  burn: Float!
+  date: String!
+  deposit: Float!
+  mint: Float!
+  withdraw: Float!
+}
+
+type User {
+  countryCode: String
+  createdAt: String!
+  displayId: String!
+  email: String!
+  firstName: String
+  id: String!
+  isVerified: Boolean!
+  lastName: String
+  mobileNumber: String
+  profileImage: String
+  roles: [UserRole!]!
+}
+
+input UserFilters {
+  active: Boolean
+  countryCode: String
+  displayId: String
+  email: String
+  firstName: String
+  lastName: String
+  mobileNumber: String
+}
+
+type UserRole {
+  isActive: Boolean!
+  isBlocked: Boolean!
+  role: String!
+}
+
+type UserStats {
+  activeUsers: Int!
+  adminUsers: Int!
+  recentUsers: [RecentUser!]!
+  regularUsers: Int!
+  totalUsers: Int!
+}

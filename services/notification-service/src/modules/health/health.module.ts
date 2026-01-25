@@ -1,0 +1,15 @@
+import { Module, forwardRef } from '@nestjs/common';
+import { TerminusModule } from '@nestjs/terminus';
+import { HealthController } from './health.controller';
+import { HealthService } from './health.service';
+import { RabbitMQModule } from '../../shared/rabbitmq/rabbitmq.module';
+
+@Module({
+  imports: [
+    TerminusModule,
+    forwardRef(() => RabbitMQModule),
+  ],
+  controllers: [HealthController],
+  providers: [HealthService],
+})
+export class HealthModule {}

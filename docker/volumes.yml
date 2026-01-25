@@ -1,0 +1,14 @@
+version: '3.8'
+
+# Volume Definitions
+volumes:
+  postgres-user-data:
+    name: postgres-user-data
+  postgres-transaction-data:
+    name: postgres-transaction-data
+  mongodb-data:
+    name: mongodb-data
+  redis-data:
+    name: redis-data
+  rabbitmq-data:
+    name: rabbitmq-data

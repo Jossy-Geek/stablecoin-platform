@@ -1,0 +1,7 @@
+version: '3.8'
+
+# Network Configuration
+networks:
+  stablecoin-network:
+    driver: bridge
+    name: stablecoin-network

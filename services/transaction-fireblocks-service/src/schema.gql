@@ -1,0 +1,63 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type PaginatedTransactions {
+  data: [Transaction!]!
+  limit: Int!
+  page: Int!
+  total: Int!
+  totalPages: Int!
+}
+
+type Query {
+  transactionStats: TransactionStats!
+  transactions(filters: TransactionFilters, limit: Int = 10, page: Int = 1): PaginatedTransactions!
+}
+
+type Transaction {
+  amount: String!
+  createdAt: String!
+  currency: String
+  destinationAddress: String
+  id: String!
+  note: String
+  status: TransactionStatus!
+  toCurrency: String
+  transactionType: TransactionType!
+  txHash: String
+  updatedAt: String!
+  userId: String!
+}
+
+input TransactionFilters {
+  amount: String
+  currency: String
+  id: String
+  status: TransactionStatus
+  transactionType: TransactionType
+  txHash: String
+}
+
+type TransactionStats {
+  totalBurn: String!
+  totalMint: String!
+}
+
+enum TransactionStatus {
+  BROADCASTING
+  CANCELLED
+  COMPLETED
+  CONFIRMED
+  FAILED
+  PENDING
+  PROCESSING
+  REJECTED
+}
+
+enum TransactionType {
+  BURN
+  DEPOSIT
+  MINT
+  WITHDRAW
+}
